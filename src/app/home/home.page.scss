@@ -25,3 +25,34 @@
 #container a {
   text-decoration: none;
 }
+
+.image-circle {
+  width: 120px; /* Ajusta el tamaño según lo necesites */
+  height: 120px; /* Ajusta el tamaño según lo necesites */
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Centra el contenedor */
+  border: 4px solid black; /* Borde negro de 4px */
+}
+
+.image-circle img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Estilos para el contenedor de los botones adicionales */
+.additional-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espacio entre los botones */
+  margin: 20px; /* Margen alrededor de los botones */
+}
+
+.forgot-password-button, .register-button {
+  --color: #007bff; /* Ajusta el color del texto del botón según el diseño */
+  --border-color: #007bff; /* Ajusta el color del borde si es necesario */
+}
